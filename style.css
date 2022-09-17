@@ -2,6 +2,9 @@
             font-family: 'Poppins', sans-serif;
             color: #313638;
         }
+        h1{
+            text-align: center;
+        }
 
         h1,h2{
             font-family: 'Yeseva One', cursive;
@@ -14,6 +17,15 @@
 
         img{
             border-radius: 100%; 
+        }
+
+        #apresentacao{
+            position: absolute;
+            left: 250px;
+            top: 190px;
+            width: 300px;
+            /* border: 2px solid black; */
+            margin: 5px 5px;
         }
      
 /* essa parte eu não vou deixar ativa por questões estéticas :) */
