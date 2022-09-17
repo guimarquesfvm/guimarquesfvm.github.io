@@ -1,0 +1,43 @@
+        p,a,ul,h4{
+            font-family: 'Poppins', sans-serif;
+            color: #313638;
+        }
+
+        h1,h2{
+            font-family: 'Yeseva One', cursive;
+            color: #F06543;
+        }
+
+        body{
+            background-color: #E0DFD5;
+        }
+
+        img{
+            border-radius: 100%; 
+        }
+/* essa parte eu não vou deixar ativa por questões estéticas :) */
+
+      #.javascript{
+        font-size: 2em;
+      }  
+      #.pythonclass{
+        font-size: 16px;
+      }
+      #.htmlclass{
+        font-size: 3em;
+      }
+      #.cssclass{
+        font-size: 32px;
+      }
+      /* soft skills */
+
+      #.problemas{
+        font-size: 8px;
+      }
+      #.comunicacao{
+        font-size: 4em;
+      }
+      #.criativo{
+        font-size: 48px;
+      }
+/* essa parte eu não deixei ativa por questões estéticas :) */
