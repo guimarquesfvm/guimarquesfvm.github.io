@@ -1,31 +1,53 @@
+        div{
+            position: absolute;
+            text-align: left;
+            margin: auto;
+            display: inline-block;
+            top: 40%;
+        }
+        
         p,a,ul,h4{
             font-family: 'Poppins', sans-serif;
             color: #313638;
+            list-style-type: none;
+            margin: auto;
         }
         h1{
             text-align: center;
+            background-color: #F2D0A4;
+            border-radius: 15px;
+            margin-right: 25%;
+            margin-left: 25%;
         }
 
         h1,h2{
             font-family: 'Yeseva One', cursive;
-            color: #F06543;
+            color: #c03221;
         }
 
         body{
-            background-color: #E0DFD5;
+            background-color: #F7F7FF;
         }
 
         img{
+            position: absolute;
             border-radius: 100%; 
+            left: 30%;
         }
 
         #apresentacao{
             position: absolute;
-            left: 250px;
-            top: 190px;
-            width: 300px;
+            left: 55%;
+            top: 25%;
+            width: 20%;
             /* border: 2px solid black; */
-            margin: 5px 5px;
+            margin: auto;
+        }
+        h4{
+            text-align: center;
+            background-color: #F2D0A4;
+            border-radius: 10px;
+
         }
      
 /* essa parte eu não vou deixar ativa por questões estéticas :) */
