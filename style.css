@@ -1,120 +1,91 @@
-body{
-  background-color: #011627;
+* {
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  margin: 10px;
 }
 
-#indice{
-  text-align: center;
+header nav{
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: auto;
+  
 }
-#indice a{
-  display: inline-block;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  padding: 20px 4% ;
-  color: #FF9F1C;
-}
-
-#guilherme{
-  padding: 1%;
-  display: block;
-  background-color: #FDFFFC;
-  margin: 3% 3%;
-  border-radius: 20px;
-}
-
-#texto-img{
-  text-align: center;
-  display: inline-block;
-}
-
-#apresentacao{
-  width: 35%;
-  font-size: 23px;
-  text-align: left;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-h1{
-  font-family: 'Yeseva One', cursive;
-  color: #E71D36;
-  text-align: center;
-  font-size: 50px;
-}
-
-h2{
-  font-family: 'Yeseva One', cursive;
-  color: #E71D36;
-  text-align: center;
-  font-size: 30px;
-}
-
-h4{
-  font-family: 'Poppins', sans-serif;
-  color: #FF9F1C;
-  text-align: center;
-  font-size: 20px;
-  display: block;
-
-}
-
-#soft li, #hard li{
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  list-style: none;
-  display: block;
-  padding-right: 2%;
-}
-
-#hard-skills{
-  display: block;
-  background-color: #FDFFFC;
-  margin: 3% 3%;
-  border-radius: 20px;
-  padding: 1%;
-}
-
-#soft-skills{
-  display: block;
-  padding: 0% 0% 0% 0%;
-  background-color: #FDFFFC;
-  margin: 3% 3%;
-  border-radius: 20px;
-  padding: 1%;
-}
-
-
-
-img{
-    display: inline-block;
-    width: 195px;
-    border-radius: 100%;
-    border: 1px solid black;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
-#links li, a{
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  list-style: none;
+a {
+  color: white;
   text-decoration: none;
-  padding-right: 1%;
-}
-
-#links{
-  background-color: #FDFFFC;
-  margin: 3% 3%;
-  border-radius: 20px;
-  padding: 1%;
-}
-
-#indice a:hover{
-  background-color: #FDFFFC ;
+  padding: 8px;
   border-radius: 10px;
 }
+a:hover {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
-#links a:hover{
-  background-color:#2EC4B6;
-  border-radius: 10px;
+h1 {
+  text-align: center;
+}
+#bio-and-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#photo {
+  border-radius: 100%;
+}
+#info p{
+  text-align: center;
+  width: 250px;
+}
+h2 {
+  text-align: center;
+}
+#hard-skills ul, #soft-skills ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hard-skills li, #soft-skills li{
+  display: flex;
+  justify-content: center;
+}
+
+#link-list {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  list-style: none;
+}
+#link-list li{
+  padding: 0 10px;
+}
+#copyright {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  h1{
+    font-size: 38px;
+  }
+  #bio-and-photo {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+  }
+  #lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2em;
+    padding: 20px;
+  }
+  #hard-skills ul, #soft-skills ul{
+    padding: 0 28px;
+  }
+
 }

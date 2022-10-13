@@ -8,90 +8,83 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     </head>
 <body>
-    <div id="indice">
-        <a href="#hard-skills">Habilidades</a>
-        <a href="#links">Links</a>
-        <a href="#texto-img">Sobre mim</a>
-    </div>
-    <!-- Apresentação -->
-    <div id="guilherme">
-        <h1> 
-            Olá! <br>
-            Eu sou o Guilherme,<br>
-            Desenvolvedor Web
-        </h1>
-
-        <!-- Imagem -->
-       <div id="texto-img"> 
-            <img id="foto" width="200px" src="Captura de tela de 2022-09-14 18-20-41.png" alt="guilherme-marques">
-        
-        
-        <!-- <h2>Quem sou eu?</h2> -->
-
-            <p id="apresentacao">
-                <em> Me chamo <strong>Guilherme Marques</strong>, sou <strong>Brasileiro</strong>, natural da <strong>Paraíba</strong>, tenho <strong>21 anos</strong> e sou estudante de <strong>Desenvolvimento Web na Trybe</strong>. </em>
-            </p>
-        </div>
-    </div>    
-     <!-- Habilidades -->
-           
-     
-    <div id="hard-skills">
+  <header>
+    <nav>
+      <a href="#hard-skills">Habilidades</a>
+      <a href="#links">Links</a>
+      <a href="#texto-img">Sobre mim</a>
+    </nav>
+    <section id="welcome">
+      <h1> 
+        Olá! <br>
+        Eu sou o Guilherme,<br>
+        Desenvolvedor Web
+      </h1>
+    </section>
+    <section id="bio-and-photo">
+      <img id="photo" width="200px" src="Captura de tela de 2022-09-14 18-20-41.png" alt="guilherme-marques">
+      <section id="info">
+        <p>
+          <em> Me chamo <strong>Guilherme Marques</strong>, sou <strong>Brasileiro</strong>, natural da <strong>Paraíba</strong>, tenho <strong>21 anos</strong> e sou estudante de <strong>Desenvolvimento Web na Trybe</strong>. </em>
+        </p>
+      </section>
+    </section>
+  </header>
+  <main>
+    <section id="lists">
+      <section id="hard-skills">
         <h2>
-            Hard Skills
-        </h2> 
-
-            <div id="hard">
-                <ul>
-                    <li>JavaScript</li>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-    </div>
-    
-    <div id="soft-skills"> 
+          Hard Skills
+        </h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Python</li>
+          </ul>
+      </section>
+      <section id="soft-skills">
         <h2>Soft Skills</h2>
-            <div id="soft">
-                <ul>
-                    <em>
-                    <li>Rápida solução de problemas</li>
-                    <li>Bom com trabalho em equipe</li>
-                    <li>Criativo</li>
-                    </em>
-                </ul>
-            </div>
-    </div>       
+          <ul>
+            <li>Rápida solução de problemas</li>
+            <li>Bom com trabalho em equipe</li>
+            <li>Criativo</li>
+          </ul>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <section id="links">
+      <h2>
+        Links
+    </h2>
+    <ul id="link-list">
+      <li>
+        <a href="#foto">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d">
+          <i class="bi bi-spotify"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/guilherme-marques-0b9a1624a/">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
 
-    
-        <!-- Links -->
-         <div id="links">   
-            <h2>
-                Links
-            </h2>
-            <ul>
-                <li><a href="#foto">Clique aqui para ir para minha foto.</a></li>
-    
-                <br>    
-    
-                <li><a target="_blank" href="https://jovemnerd.com.br/">Site que gosto!</a></li>
-    
-                <br>
-    
-                <li><a target="_blank" href="https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d">Link para minha banda favorita no Spotify.</a></li>
-    
-                <br>
-    
-                <li><a target="_blank" href="https://www.linkedin.com/in/guilherme-marques-0b9a1624a/">Me siga no Linkedin!</a></li>
-    
-            </ul>  
-        </div>
-
-
-
-
+    </ul>  
+    </section>
+    <section id="copyright">
+      <p>
+        Guilherme Marques, 2022.
+      </p>
+    </section>
+  </footer>
 </body>
 </html>
